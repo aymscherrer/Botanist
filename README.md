@@ -6,6 +6,7 @@ This application uses using CoreML 2 to recognize the plant that the user is pic
 
 ### Prerequisites
 Deployment target iOS 12.1.
+Upload Botanist/FlowerClassifier.mlmodel using oxford102.caffemodel.
 
 ## Authors
 

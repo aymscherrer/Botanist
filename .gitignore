@@ -4,6 +4,9 @@
 
 .DS_Store
 
+## Ignore mlmodel large files
+Botanist/FlowerClassifier.mlmodel
+
 ## Build generated
 build/
 DerivedData/

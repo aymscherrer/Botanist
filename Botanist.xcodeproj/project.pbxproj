@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0703B2C6221AF37500B1D14E /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 0703B2C5221AF37500B1D14E /* FlowerClassifier.mlmodel */; };
 		07FFCD2C22107A4800091550 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFCD2B22107A4800091550 /* AppDelegate.swift */; };
 		07FFCD2E22107A4800091550 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07FFCD2D22107A4800091550 /* ViewController.swift */; };
 		07FFCD3122107A4800091550 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FFCD2F22107A4800091550 /* Main.storyboard */; };
 		07FFCD3322107A4A00091550 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 07FFCD3222107A4A00091550 /* Assets.xcassets */; };
 		07FFCD3622107A4A00091550 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 07FFCD3422107A4A00091550 /* LaunchScreen.storyboard */; };
-		07FFCD3E22107A6600091550 /* FlowerClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 07FFCD3D22107A6600091550 /* FlowerClassifier.mlmodel */; };
 		19D0B2AEF4A3016B52A88A3C /* Pods_Botanist.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ACD802AA5485A22B2C6884DB /* Pods_Botanist.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0703B2C5221AF37500B1D14E /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		07FFCD2822107A4800091550 /* Botanist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Botanist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		07FFCD2B22107A4800091550 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		07FFCD2D22107A4800091550 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,7 +25,6 @@
 		07FFCD3222107A4A00091550 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		07FFCD3522107A4A00091550 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		07FFCD3722107A4A00091550 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		07FFCD3D22107A6600091550 /* FlowerClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = FlowerClassifier.mlmodel; sourceTree = "<group>"; };
 		ACD802AA5485A22B2C6884DB /* Pods_Botanist.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Botanist.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE5502AF5E4CF9800C203A01 /* Pods-Botanist.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Botanist.release.xcconfig"; path = "Pods/Target Support Files/Pods-Botanist/Pods-Botanist.release.xcconfig"; sourceTree = "<group>"; };
 		B8543CAEB09AB78707543EF1 /* Pods-Botanist.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Botanist.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Botanist/Pods-Botanist.debug.xcconfig"; sourceTree = "<group>"; };
@@ -63,13 +63,13 @@
 		07FFCD2A22107A4800091550 /* Botanist */ = {
 			isa = PBXGroup;
 			children = (
+				0703B2C5221AF37500B1D14E /* FlowerClassifier.mlmodel */,
 				07FFCD2B22107A4800091550 /* AppDelegate.swift */,
 				07FFCD2D22107A4800091550 /* ViewController.swift */,
 				07FFCD2F22107A4800091550 /* Main.storyboard */,
 				07FFCD3222107A4A00091550 /* Assets.xcassets */,
 				07FFCD3422107A4A00091550 /* LaunchScreen.storyboard */,
 				07FFCD3722107A4A00091550 /* Info.plist */,
-				07FFCD3D22107A6600091550 /* FlowerClassifier.mlmodel */,
 			);
 			path = Botanist;
 			sourceTree = "<group>";
@@ -215,7 +215,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				07FFCD3E22107A6600091550 /* FlowerClassifier.mlmodel in Sources */,
+				0703B2C6221AF37500B1D14E /* FlowerClassifier.mlmodel in Sources */,
 				07FFCD2E22107A4800091550 /* ViewController.swift in Sources */,
 				07FFCD2C22107A4800091550 /* AppDelegate.swift in Sources */,
 			);
